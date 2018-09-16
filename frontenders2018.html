@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FRONTENDERS 18</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>FRONTENDERS 18</h1>
+    <section id="buttons">
+        <div id="sorting">
+            Sort by:
+            <button id="sort_first">Name</button>
+            <button id="sort_last">Last Name</button>
+        </div>
+    </section>
+    <main>
+        <table id="studentlist">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Info</th>
+                    <th>delete</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfooter></tfooter>
+        </table>
+
+        <template id="student_template">
+            <tr>
+                <td data-firstname></td>
+                <td data-lastname></td>
+                <td><button>Info</button></td>
+                <td><button>Delete</button></td>
+                <td>Information about student</td>
+            </tr>
+        </template>
+    </main>
+
+
+    <script src="frontenders2018.js"></script>
+    <script src="frontend.js"></script>
+</body>
+
+</html>
